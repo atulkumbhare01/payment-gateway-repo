@@ -1,0 +1,62 @@
+body {
+  font-family: Arial;
+  background: #f5f5f5;
+  padding: 40px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.form {
+  flex: 1;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 12px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.card {
+  width: 350px;
+  height: 220px;
+  background: linear-gradient(
+    135deg,
+    #1e3c72,
+    #2a5298
+  );
+  color: white;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.status-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+}
